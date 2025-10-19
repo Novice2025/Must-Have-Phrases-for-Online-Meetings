@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Phrases for Online Meetings</title>
+    <!-- Chosen Palette: Dark Professional (Gold/Green on Dark Gray, plus Formal Blue and Calm Green for differentiation) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Poppins:wght{500;700}&display=swap" rel="stylesheet">
+    <style>
+        /* Custom Styling for Professional Feel */
+        :root {
+            --accent-gold: #FFD700;
+            --dark-bg: #141414;
+            --mid-bg: #1F1F1F;
+            --formal-blue: #3b82f6;
+            --calm-green: #34D399;
+        }
+        body {
+            background-color: var(--dark-bg);
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+        }
+        .header-nav {
+            background-color: rgba(20, 20, 20, 0.95);
+        }
+        .hero-title {
+            font-family: 'Poppins', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .lesson-card {
+            background-color: var(--mid-bg);
+            border: 1px solid #333;
+            transition: transform 0.2s, box-shadow 0.3s;
+            border-radius: 0.75rem;
+        }
+        .lesson-card:hover {
+            transform: scale(1.01);
+            box-shadow: 0 0 30px rgba(52, 211, 153, 0.2); /* Calm Green Shadow */
+        }
+        .english-explanation-box {
+            background-color: #2b2b2b;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            color: #ccc;
+            border-left: 4px solid var(--accent-gold);
+            margin-top: 1rem;
+        }
+        .flow-core {
+            border: 3px solid var(--calm-green);
+            box-shadow: 0 0 15px rgba(52, 211, 153, 0.4);
+        }
+        .phrase-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #333;
+        }
+        .phrase-list li:last-child {
+            border-bottom: none;
+        }
+        .section-header {
+             border-left: 4px solid var(--calm-green);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header Navigation -->
+    <header class="header-nav sticky top-0 left-0 right-0 z-50 p-4 shadow-xl">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-calm-green font-poppins">ONLINE MEETING PROTOCOL</h1>
+            <nav class="hidden sm:block">
+                <a href="#start" class="text-sm font-medium hover:text-calm-green mx-3 transition-colors">1. Start & Agenda</a>
+                <a href="#screen" class="text-sm font-medium hover:text-calm-green mx-3 transition-colors">2. Screen Share</a>
+                <a href="#clarity" class="text-sm font-medium hover:text-calm-green mx-3 transition-colors">3. Clarity & Interrupt</a>
+                <a href="#summary" class="text-sm font-medium hover:text-calm-green mx-3 transition-colors">4. Close & Action</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-20 pb-10">
+        <!-- HERO Section -->
+        <section class="max-w-7xl mx-auto px-4 mb-12">
+            <div class="relative rounded-xl overflow-hidden shadow-2xl">
+                <div class="h-96 w-full bg-cover bg-center" style="background: linear-gradient(to bottom, rgba(20, 20, 20, 0.1) 0%, var(--dark-bg) 100%), url('https://placehold.co/1280x500/1F1F1F/FFFFFF?text=Online+Communication+Mastery');">
+                    <div class="absolute inset-0 p-8 flex flex-col justify-end">
+                        <p class="text-xl font-medium text-gray-300 mb-2">Business English | Remote Work</p>
+                        <h2 class="hero-title text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
+                            Must-Have <span class="text-calm-green">Phrases</span> for Online Meetings
+                        </h2>
+                        <p class="max-w-3xl text-lg text-gray-200">
+                            Simple, clear expressions for welcoming, clarifying, interrupting, and summarizing, ensuring you sound professional and are easily understood.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Distribution -->
+        <div class="max-w-7xl mx-auto px-4 space-y-12">
+
+            <!-- Section 1: Starting the Meeting & Agenda Setting -->
+            <section id="start" class="py-6">
+                <h3 class="text-2xl font-bold text-calm-green mb-4 md:text-3xl pl-4 section-header">
+                    1. Starting the Meeting & Setting the Agenda
+                </h3>
+                <div class="lesson-card p-6 rounded-xl flow-core">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Welcome, Purpose, and Duration</h4>
+                    <p class="text-gray-400 mb-3">These phrases clearly state the objective and time commitment, managing participant expectations.</p>
+                    <ul class="phrase-list text-white ml-2">
+                        <li><span class="text-accent-gold font-semibold">Welcome:</span> **Welcome everyone**, today's meeting is about... (The purpose of today's meeting is to...)</li>
+                        <li><span class="text-accent-gold font-semibold">Agenda:</span> I sent you the agenda before the meeting, so you should all have a copy.</li>
+                        <li><span class="text-accent-gold font-semibold">Duration:</span> The meeting is going to last **no more than one hour**, so everybody will be out of here by three o'clock.</li>
+                        <li><span class="text-accent-gold font-semibold">Ready to Start:</span> Okay, **are we good to go?** / Okay, **let's get started, shall we?**</li>
+                        <li><span class="text-accent-gold font-semibold">Informal Start:</span> Okay, **let's kick off the meeting with...** / Let's **get the ball rolling** with a brief rundown of the last meeting.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 2: Screen Sharing & Visual Aids -->
+            <section id="screen" class="py-6">
+                <h3 class="text-2xl font-bold text-calm-green mb-4 md:text-3xl pl-4 section-header">
+                    2. Screen Sharing Protocol
+                </h3>
+                <div class="lesson-card p-6 rounded-xl">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Announcing and Confirming Shared Content</h4>
+                    <p class="text-gray-400 mb-3">Always vocalize when you are sharing your screen or documents so participants know what to expect.</p>
+                    <ul class="phrase-list text-white ml-2">
+                        <li><span class="text-accent-gold font-semibold">Permission/Action:</span> Can I **share my screen** with you? / I'm going to **share my screen** with you now.</li>
+                        <li><span class="text-accent-gold font-semibold">Presentation:</span> I'm going to **put up my presentation** now (or share the powerpoint presentation).</li>
+                        <li><span class="text-accent-gold font-semibold">Confirmation:</span> **Can you see my screen clearly?** / Can you see what I'm showing you?</li>
+                        <li><span class="text-accent-gold font-semibold">Feedback:</span> If you've got any comments, you can put them in the **chat line**.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Section 3: Clarity, Interruptions, and Transitions -->
+            <section id="clarity" class="py-6">
+                <h3 class="text-2xl font-bold text-calm-green mb-4 md:text-3xl pl-4 section-header">
+                    3. Clarity, Interruptions, and Technical Issues
+                </h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="lesson-card p-6 rounded-xl">
+                        <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Requesting Clarity and Repetition</h4>
+                        <ul class="phrase-list text-white ml-2">
+                            <li><span class="text-accent-gold font-semibold">Pace:</span> **Could you speak more slowly, please?**</li>
+                            <li><span class="text-accent-gold font-semibold">Volume:</span> **Could you speak up, please?** I didn't quite hear it.</li>
+                            <li><span class="text-accent-gold font-semibold">Detail:</span> **Could you explain that again?** / Could you repeat the last bit?</li>
+                            <li><span class="text-accent-gold font-semibold">Missed Point:</span> I didn't quite **get that**. Perhaps you could go through that again.</li>
+                            <li><span class="text-accent-gold font-semibold">Visual Error:</span> My picture froze for a minute, I just missed the last bit you said. **Could you repeat it, please?**</li>
+                        </ul>
+                    </div>
+                    <div class="lesson-card p-6 rounded-xl">
+                        <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Polite Interruption and Technical Troubleshooting</h4>
+                        <ul class="phrase-list text-white ml-2">
+                            <li><span class="text-accent-gold font-semibold">Formal Interrupt:</span> **Could I interrupt you for a minute?** / Can I stop you there quickly?</li>
+                            <li><span class="text-accent-gold font-semibold">Informal Interrupt:</span> Would you mind if I **jumped in here**? (or **butted in** here?)</li>
+                            <li><span class="text-accent-gold font-semibold">Clarification:</span> **Just to clarify**, what you're saying is...?</li>
+                            <li><span class="text-accent-gold font-semibold">Hold Request:</span> **Hold on a minute, please.** We don't seem to have discussed that in much detail.</li>
+                            <li><span class="text-accent-gold font-semibold">Audio/Video Issues:</span> **I'm having problems hearing you.** / Your **picture's frozen**. / There seems to be an **echo**.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: Transitions and Summarizing/Closing -->
+            <section id="summary" class="py-6">
+                <h3 class="text-2xl font-bold text-calm-green mb-4 md:text-3xl pl-4 section-header">
+                    4. Transitions, Summary, and Closing
+                </h3>
+                <div class="lesson-card p-6 rounded-xl flow-core">
+                    <h4 class="text-xl font-bold mb-3 text-calm-green font-poppins">Action Points and Follow-up</h4>
+                    <ul class="phrase-list text-white ml-2">
+                        <li><span class="text-accent-gold font-semibold">Transition:</span> Okay, let's **move on to the next point**. / **Moving on swiftly**, let's talk about this.</li>
+                        <li><span class="text-accent-gold font-semibold">Follow-up Meeting:</span> Let's **pencil in another meeting** for next Wednesday to pick up on these points.</li>
+                        <li><span class="text-accent-gold font-semibold">Summary Intro:</span> **In summary**, we're going to do this. / Let me **summarize** by saying this.</li>
+                        <li><span class="text-accent-gold font-semibold">Ending the Call:</span> I think we can **leave it here for today**. / I think this is a **good place to stop** or to end.</li>
+                        <li><span class="text-accent-gold font-semibold">Next Steps:</span> I'll send you an email and we will start again same time and go through the **remaining points**.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- Summary Zone -->
+        <section id="jargon" class="max-w-xl mx-auto px-4 my-16 text-center">
+            <div class="p-8 rounded-xl bg-calm-green bg-opacity-20 border-2 border-calm-green shadow-lg">
+                <h3 class="text-3xl font-bold text-calm-green mb-4 font-poppins">
+                    Key Jargon Recap
+                </h3>
+                <p class="text-lg text-gray-200 max-w-3xl mx-auto">
+                    These three terms are essential metaphors for driving meeting momentum:
+                </p>
+                <div class="mt-6 space-y-3">
+                    <p class="text-white text-xl font-bold"><span class="text-calm-green">Kick Off:</span> To formally start the meeting.</p>
+                    <p class="text-white text-xl font-bold"><span class="text-calm-green">Get the Ball Rolling:</span> To initiate the discussion/start moving forward.</p>
+                    <p class="text-white text-xl font-bold"><span class="text-calm-green">Pencil In:</span> To tentatively schedule a follow-up meeting.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-6 text-gray-500 text-sm border-t border-gray-800 mt-10">
+        @ Teacher Harry - Online English Lessons
+    </footer>
+
+    <script type="module">
+        // Firebase imports are automatically configured for the Canvas environment
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        
+        // The script below uses the global variables __firebase_config and __initial_auth_token
+        // provided by the hosting environment for authentication.
+        const initializeFirebase = async () => {
+            try {
+                // Safely load environment variables
+                const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
+                const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+                
+                if (firebaseConfig) {
+                    const app = initializeApp(firebaseConfig);
+                    const auth = getAuth(app);
+                    
+                    if (initialAuthToken) {
+                        console.log("Firebase: Signing in with custom token...");
+                        await signInWithCustomToken(auth, initialAuthToken);
+                    } else {
+                        console.log("Firebase: Signing in anonymously (no custom token provided)...");
+                        await signInAnonymously(auth);
+                    }
+                    console.log("Firebase initialized and authenticated successfully.");
+                } else {
+                    console.error("Firebase: Configuration not available. Skipping initialization.");
+                }
+            } catch (error) {
+                console.error("Firebase init error:", error);
+            }
+        };
+        // Initialize Firebase when the window loads
+        window.onload = initializeFirebase;
+    </script>
+</body>
+</html>
